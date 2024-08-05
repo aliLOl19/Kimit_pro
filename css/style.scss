@@ -1,0 +1,14 @@
+@import 'config';
+@import 'color';
+
+.services{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.services h2{
+    color: $primary-color;
+}
+.services .services-container{
+    @include flex(space-between);
+}

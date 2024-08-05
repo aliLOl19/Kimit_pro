@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.services {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.services h2 {
+  color: yellow;
+}
+
+.services .services-container {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

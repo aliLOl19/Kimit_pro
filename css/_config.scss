@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@mixin flex($justify){
+    display: flex;
+    justify-content: $justify;
+}
+
